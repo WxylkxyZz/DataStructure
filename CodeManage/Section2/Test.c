@@ -141,13 +141,44 @@ void test6()
 	SqListDestory(&L);
 }
 
+//int main()
+//{
+//	// test1();
+//	// test2();
+//	// test3();
+//	// test4();
+//	// test5();
+//	test6();
+//	return 0;
+//}
+
+
+// p18-10-2020统考
+// 大概意思 - 给一个数组循环左移p个位置
+void Reverse(int arr[], int from, int to)
+{
+	int temp = 0;
+	for (int i = 0; i < (to - from + 1) / 2; i++)
+	{
+		temp = arr[i];
+		arr[from+i] = arr[to-i];
+		arr[to - i] = temp;
+	}
+}
+void Converse(int R[], int n, int p)
+{
+	Reverse(R, 0, p - 1);
+	Reverse(R, p, n - 1);
+	Reverse(R, 0, n - 1);
+}
+
 int main()
 {
-	// test1();
-	// test2();
-	// test3();
-	// test4();
-	// test5();
-	test6();
-	return 0;
+	int arr[] = {1, 2, 3, 4, 5, 6};
+	Converse(arr, 6, 3);
+	for (int i = 0; i < (sizeof(arr) / 4); i++)
+	{
+		printf("%d\n", arr[i]);
+	}
+	return -1;
 }

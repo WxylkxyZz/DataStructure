@@ -122,3 +122,6 @@ int SqListFind(SeqList* L, ElemType x)
 	}
 	return -1;
 }
+
+
+
