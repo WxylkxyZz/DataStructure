@@ -1,0 +1,5 @@
+﻿  SList.c
+D:\A_DataStruct_Notes\DataStructure\CodeManaga\SinglyLinkedList\SList.c(9,18): warning C4133: “=”: 从“SListNode *”到“SLTNode *”的类型不兼容
+D:\A_DataStruct_Notes\DataStructure\CodeManaga\SinglyLinkedList\SList.c(27,21): warning C4133: “=”: 从“SListNode *”到“SLTNode *”的类型不兼容
+D:\A_DataStruct_Notes\DataStructure\CodeManaga\SinglyLinkedList\SList.c(29,23): warning C4133: “=”: 从“SLTNode *”到“SListNode *”的类型不兼容
+  SinglyLinkedList.vcxproj -> D:\A_DataStruct_Notes\DataStructure\CodeManaga\x64\Debug\SinglyLinkedList.exe
