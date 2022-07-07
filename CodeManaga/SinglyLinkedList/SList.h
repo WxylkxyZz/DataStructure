@@ -11,4 +11,8 @@ typedef struct SListNone
 }SLTNode;
 
 void SListPrint(SLTNode* phead);
+SLTNode* BuyListNode(ElemType x);
 void SListPushBack(SLTNode** phead, ElemType x);
+void SListPushFront(SLTNode** phead, ElemType x);
+void SListPopBack(SLTNode** phead);
+void SListPopFront(SLTNode** phead);
