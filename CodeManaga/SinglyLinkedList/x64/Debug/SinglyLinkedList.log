@@ -1,2 +1,3 @@
 ﻿  Test.c
+D:\A_DataStruct_Notes\DataStructure\CodeManaga\SinglyLinkedList\Test.c(55,28): warning C4133: “函数”: 从“SListNode *”到“SLTNode *”的类型不兼容
   SinglyLinkedList.vcxproj -> D:\A_DataStruct_Notes\DataStructure\CodeManaga\x64\Debug\SinglyLinkedList.exe
