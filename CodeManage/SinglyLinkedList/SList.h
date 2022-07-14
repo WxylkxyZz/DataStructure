@@ -4,7 +4,7 @@
 
 typedef int ElemType;
 
-typedef struct SListNone
+typedef struct SListNode
 {
 	ElemType data;
 	struct SListNode* next;

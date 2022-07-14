@@ -1,0 +1,4 @@
+﻿  test.c
+D:\A_DataStruct_Notes\DataStructure\CodeManage\DoubleLinkedList\test.c(38,9): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“DLLNode *”
+D:\A_DataStruct_Notes\DataStructure\CodeManage\DoubleLinkedList\test.c(38,9): warning C4313: "printf": 格式字符串中的 "%x" 与类型为 "DLLNode *" 的参数 1 冲突
+  DoubleLinkedList.vcxproj -> D:\A_DataStruct_Notes\DataStructure\CodeManage\x64\Debug\DoubleLinkedList.exe
