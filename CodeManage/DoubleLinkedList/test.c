@@ -35,7 +35,14 @@ void Test2()
 	ListPushBack(plist, 4);
 	ListPrint(plist);
 	DLLNode * node = ListFind(plist, 3);
-	printf("%x\n", node->next);
+	if (node)
+	{
+		ListErase(node);
+	}
+	ListPrint(plist);
+
+	Destroy(plist);
+	plist = NULL; // 在Destroy内置空不会改变plist 除非传二级指针 但我们为了接口一致性 都传入一级指针  所以在外面置空即可
 }
 
 int main()

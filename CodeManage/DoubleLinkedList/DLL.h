@@ -24,3 +24,8 @@ void ListPopFront(DLLNode* phead);
 
 
 DLLNode* ListFind(DLLNode* phead, ElemType x);
+
+void ListInsert(DLLNode* pos, ElemType x); // 在pos位置之前插入
+void ListErase(DLLNode* pos); // 删除pos位置
+
+void Destroy(DLLNode* phead);
